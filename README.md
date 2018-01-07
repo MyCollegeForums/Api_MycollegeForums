@@ -1,4 +1,4 @@
-# DiscourseApi
+# MyCollegeForumsApi
 
 [![Code Climate](https://codeclimate.com/github/discourse/discourse_api.png)][codeclimate]
 
@@ -7,6 +7,7 @@
 The Discourse API gem allows you to consume the Discourse API
 
 ## Installation
+This api lets you access some data from https://mycollegeforums.com
 
 Add this line to your application's Gemfile:
 
