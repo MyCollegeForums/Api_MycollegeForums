@@ -27,9 +27,10 @@ Over time this project intends to have a full Discourse API. At the moment there
 few endpoints available:
 
 ```ruby
-client = DiscourseApi::Client.new("http://try.discourse.org")
-client.api_key = "YOUR_API_KEY"
-client.api_username = "YOUR_USERNAME"
+client = DiscourseApi::Client.new("https://mycollegeforums.com")
+client.api_key = "10fd9bbfe588cd47a33e7f4a2c81902a9c11ceeb92ff55823179b564d96607ac"
+client.api_username = "piyush"
+
 
 client.ssl(...)                                 #=> specify SSL connection settings if needed
 
